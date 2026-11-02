@@ -2,7 +2,7 @@
   {
     "source": "app.js",
     "destination": "app.js",
-    "sha256": "54692d3aa45f45d01d5c6894efdc038c7a7ceea69afffed13471cc6b8fbfca5b"
+    "sha256": "4a28cdc0a0fc89538ab9b23416f317dbc8681a40567a16eb4fdc394d1eb0bd32"
   },
   {
     "source": "fiesta-preview.jpg",
@@ -27,12 +27,12 @@
   {
     "source": "index.html",
     "destination": "index.html",
-    "sha256": "65ee210bc65419f2fcf7bc02bb5b49e03dda6ae85875dd2d3f0e8b1569904691"
+    "sha256": "8955df31844baead68c28c872f5c3c9b4d4505dbf539f94f490f8fa4f787cffc"
   },
   {
     "source": "style.css",
     "destination": "style.css",
-    "sha256": "00b9e0e31466c0e4485a603436711115604caad76eba287690505c610bf6a2aa"
+    "sha256": "69eecbfd33c131452d428bbe91f0d59bbb6c30be38c6b6897a103028d92f7a53"
   },
   {
     "source": "HLS-LICENSE.txt",
@@ -118,5 +118,10 @@
     "source": "invitacion.mp4",
     "destination": "video/invitacion.mp4",
     "sha256": "0b680e1a4141fbc92b3e4f78b7defa52d27712a94395f72dc24c4ac1213cf890"
+  },
+  {
+    "source": "LUCIDE-LICENSE.txt",
+    "destination": "vendor/LUCIDE-LICENSE.txt",
+    "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
   }
 ]
