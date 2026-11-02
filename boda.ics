@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Laia y Jonathan//Nuestra boda//ES
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:laia-jonathan-20270619@wedding.local
+DTSTAMP:20261102T000000Z
+DTSTART:20270619T160000Z
+SUMMARY:Boda de Laia y Jonathan
+LOCATION:La Costa\, 08787 Santa Maria de Miralles\, Barcelona
+DESCRIPTION:Os esperamos a las 18:00. La ceremonia empieza a las 18:30.
+  Hora local de Barcelona. ¡Qué ganas de celebrarlo con vosotros!
+URL:https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a413ec38
+ fd0dd7:0x914fa5e9f758d426
+END:VEVENT
+END:VCALENDAR

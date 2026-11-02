@@ -1,0 +1,6 @@
+public/
+.vercel/
+.env*
+node_modules/
+escena-*.ts
+invitacion.mp4

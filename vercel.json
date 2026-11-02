@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node build.mjs",
+  "installCommand": "",
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/video/alta/pelicula.m3u8",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.apple.mpegurl"
+        }
+      ]
+    },
+    {
+      "source": "/video/alta/(.*).ts",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "video/mp2t"
+        }
+      ]
+    }
+  ]
+}

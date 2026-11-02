@@ -1,0 +1,122 @@
+[
+  {
+    "source": "app.js",
+    "destination": "app.js",
+    "sha256": "54692d3aa45f45d01d5c6894efdc038c7a7ceea69afffed13471cc6b8fbfca5b"
+  },
+  {
+    "source": "fiesta-preview.jpg",
+    "destination": "assets/fiesta-preview.jpg",
+    "sha256": "df1dea4c822a9fe7c8e5feec02e9c7e51cab26abadd6c4f6f37639a62b65bc90"
+  },
+  {
+    "source": "playa.png",
+    "destination": "assets/playa.png",
+    "sha256": "2fc4caedd36b77225c6b6b736d1bf40f1a116d27a135a061f66ab63f7f29c4f6"
+  },
+  {
+    "source": "boda.ics",
+    "destination": "boda.ics",
+    "sha256": "e169601cc89217d1e5dcf9131ddfa005ef9121af66006850a51faed01fc2a511"
+  },
+  {
+    "source": "config.js",
+    "destination": "config.js",
+    "sha256": "709c5139379473b56e0be2d9952211c6e3716de55f8770faabf07864f61c1982"
+  },
+  {
+    "source": "index.html",
+    "destination": "index.html",
+    "sha256": "65ee210bc65419f2fcf7bc02bb5b49e03dda6ae85875dd2d3f0e8b1569904691"
+  },
+  {
+    "source": "style.css",
+    "destination": "style.css",
+    "sha256": "00b9e0e31466c0e4485a603436711115604caad76eba287690505c610bf6a2aa"
+  },
+  {
+    "source": "HLS-LICENSE.txt",
+    "destination": "vendor/HLS-LICENSE.txt",
+    "sha256": "ca8773cf798c7ed997d4dd7c8e23c348699f8d5b7462636694cc14de6cda12db"
+  },
+  {
+    "source": "hls.min.js",
+    "destination": "vendor/hls.min.js",
+    "sha256": "cfc70cc9e9fc63d071919e087670abc760c8fd1bc889b88588026e4d22193bbe"
+  },
+  {
+    "source": "escena-000.ts",
+    "destination": "video/alta/escena-000.ts",
+    "sha256": "957d8f4bbeea7b3c44cbdfccdff23e5055df277c86864c1b318808f3211ce437"
+  },
+  {
+    "source": "escena-001.ts",
+    "destination": "video/alta/escena-001.ts",
+    "sha256": "b2225b06ad10f118e0d44825fee8aa9c9cd92e0bc4f8f5283363cfbce86332b5"
+  },
+  {
+    "source": "escena-002.ts",
+    "destination": "video/alta/escena-002.ts",
+    "sha256": "b65b35bad5a78c8d911a99ba0202c328509a821e5c0dfd853171efb3b50751a6"
+  },
+  {
+    "source": "escena-003.ts",
+    "destination": "video/alta/escena-003.ts",
+    "sha256": "ff9c9b17c6a6fe0b51cf2b6ffaf492e8b47eedde4072e920ee41d11a6f390677"
+  },
+  {
+    "source": "escena-004.ts",
+    "destination": "video/alta/escena-004.ts",
+    "sha256": "c34cd87d647df1322ac46b961ee453b7032d6279ab8eb8feb8792d8f48d6172f"
+  },
+  {
+    "source": "escena-005.ts",
+    "destination": "video/alta/escena-005.ts",
+    "sha256": "c22deea37462a363579c77301e25c90796727b78a54415e24426fc17cb38b2d2"
+  },
+  {
+    "source": "escena-006.ts",
+    "destination": "video/alta/escena-006.ts",
+    "sha256": "2b3e94bcd86ed6c0662ab6d8b357009874ac0a0cf7c2f9a2668f827d40fd4bb5"
+  },
+  {
+    "source": "escena-007.ts",
+    "destination": "video/alta/escena-007.ts",
+    "sha256": "9f6dc4c52c4f82ba4794175439181baa7dce649825d1b94686de8f117bfe5301"
+  },
+  {
+    "source": "escena-008.ts",
+    "destination": "video/alta/escena-008.ts",
+    "sha256": "f3303281f82de3fee70e4dc79456d5f5ebb7e1ee3187432f98d5f7fe825eaf24"
+  },
+  {
+    "source": "escena-009.ts",
+    "destination": "video/alta/escena-009.ts",
+    "sha256": "bb85b7551a55c82f3e29ece6316a93ff65a4fc227a66d3e63da8ac1847e58d60"
+  },
+  {
+    "source": "escena-010.ts",
+    "destination": "video/alta/escena-010.ts",
+    "sha256": "4cc712af1cbbd4824e751c4e99574e3bb759082bdab79bceaf45040944a3cabc"
+  },
+  {
+    "source": "escena-011.ts",
+    "destination": "video/alta/escena-011.ts",
+    "sha256": "1cb2a08494c1d42de0e345a9fd4aaf43cb0a90fce9a1ee7f536cc6521beb3839"
+  },
+  {
+    "source": "escena-012.ts",
+    "destination": "video/alta/escena-012.ts",
+    "sha256": "a66d084a54bc713cf13435114bafff10abc4a491b5ab6ba8fe209e1cde95dc26"
+  },
+  {
+    "source": "pelicula.m3u8",
+    "destination": "video/alta/pelicula.m3u8",
+    "sha256": "52b5b5c1d9ea23a3dc48ac2ae581094a2eaf9b367fec00ba3c22a2d4d1d5a6da"
+  },
+  {
+    "source": "invitacion.mp4",
+    "destination": "video/invitacion.mp4",
+    "sha256": "0b680e1a4141fbc92b3e4f78b7defa52d27712a94395f72dc24c4ac1213cf890"
+  }
+]
