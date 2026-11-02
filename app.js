@@ -175,7 +175,7 @@ film.addEventListener('ended', invitation);
 film.addEventListener('error', videoFailure);
 film.addEventListener('playing', () => { $('video-error').hidden = true; });
 $('back-cover').addEventListener('click', () => {
-  document.title = '¡Estáis invitados a una fiesta de cumpleaños!';
+  document.title = 'Estáis invitados a mi fiesta de cumpleaños';
   $('invitation').hidden = true;
   $('welcome').hidden = false;
   window.scrollTo(0, 0);
