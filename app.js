@@ -15,8 +15,6 @@ let hlsPlayer;
 let loadedVideoUrl;
 let videoPreparationFailed = false;
 let opener;
-let seen = false;
-try { seen = localStorage.getItem('lj-invitation-seen') === 'yes'; } catch {}
 function invitation() {
   document.title = 'Laia & Jonathan · 19 de junio de 2027';
   film.pause();
@@ -25,7 +23,6 @@ function invitation() {
   document.body.classList.remove('modal-open');
   $('welcome').hidden = true;
   $('invitation').hidden = false;
-  try { localStorage.setItem('lj-invitation-seen', 'yes'); } catch {}
   window.scrollTo(0, 0);
 }
 function cinema(event) {
@@ -174,12 +171,25 @@ dialog.addEventListener('cancel', event => { event.preventDefault(); closeCinema
 film.addEventListener('ended', invitation);
 film.addEventListener('error', videoFailure);
 film.addEventListener('playing', () => { $('video-error').hidden = true; });
-$('back-cover').addEventListener('click', () => {
+function resetWelcome() {
+  film.pause();
+  film.currentTime = 0;
+  exitFilmFullscreen();
+  if (dialog.open) dialog.close();
+  document.body.classList.remove('modal-open');
   document.title = 'Estáis invitados a mi fiesta de cumpleaños';
   $('invitation').hidden = true;
   $('welcome').hidden = false;
-  window.scrollTo(0, 0);
+  if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+}
+$('back-cover').addEventListener('click', () => {
+  resetWelcome();
   $('start').focus();
+});
+// A restored page must keep the surprise, even when returned from the browser cache.
+window.addEventListener('pageshow', event => {
+  if (event.persisted) resetWelcome();
 });
 if (config.venue) $('venue-copy').textContent = config.venue;
 for (const [key, id] of [['mapUrl', 'map-link'], ['rsvpUrl', 'rsvp-link']]) {
@@ -188,4 +198,5 @@ for (const [key, id] of [['mapUrl', 'map-link'], ['rsvpUrl', 'rsvp-link']]) {
     if (key === 'rsvpUrl') $('rsvp-copy').textContent = '¡Nos hará mucha ilusión teneros allí! Confirmad por WhatsApp e indicad vuestros nombres.';
   }
 }
-if (seen) invitation();
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+resetWelcome();
