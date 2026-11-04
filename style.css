@@ -7,3 +7,6 @@
 
 /* Programa de la celebración. */
 .day-details article>div{min-width:0}.wedding-program{list-style:none;padding:0;margin:22px 0 0}.wedding-program li{position:relative;padding:0 0 24px 22px;border-left:1px solid var(--line)}.wedding-program li:last-child{padding-bottom:0;border-left-color:transparent}.wedding-program li::before{content:"";position:absolute;left:-4px;top:7px;width:7px;height:7px;border-radius:50%;background:#a78462}.wedding-program h4{font-size:13px;font-weight:600;line-height:1.8;margin:0 0 6px;text-wrap:pretty}.wedding-program h4 span{white-space:nowrap}.wedding-program h4 em{font-family:var(--serif);font-size:23px}.wedding-program p{margin:0;text-wrap:pretty}@media(max-width:700px){.wedding-program li{padding-left:18px}.wedding-program h4{font-size:12px}}
+
+/* Alinear los detalles con el inicio de la columna de la fecha. */
+.day-layout{margin-top:0;align-items:start}.day-intro>.eyebrow{color:var(--muted)}.day-intro .calendar{margin-top:50px}@media(max-width:700px){.day-intro .calendar{margin-top:38px}}
