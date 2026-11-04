@@ -177,7 +177,7 @@ function resetWelcome() {
   exitFilmFullscreen();
   if (dialog.open) dialog.close();
   document.body.classList.remove('modal-open');
-  document.title = 'Estáis invitados a mi fiesta de cumpleaños';
+  document.title = 'Estáis invitados a mi fiesta';
   $('invitation').hidden = true;
   $('welcome').hidden = false;
   if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
