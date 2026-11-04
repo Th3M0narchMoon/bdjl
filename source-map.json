@@ -2,7 +2,7 @@
   {
     "source": "app.js",
     "destination": "app.js",
-    "sha256": "5c8cae1f3ea51d3e78c304705f5bc39521c95342f31a65ac79eb491df5e9bbce"
+    "sha256": "eb42c1b6d39315236899e63744a390c821662b4084ba7c984a371b1872e48511"
   },
   {
     "source": "fiesta-preview.jpg",
@@ -17,22 +17,22 @@
   {
     "source": "boda.ics",
     "destination": "boda.ics",
-    "sha256": "e169601cc89217d1e5dcf9131ddfa005ef9121af66006850a51faed01fc2a511"
+    "sha256": "4d21b4f8703b5a62c9cdfaacc7c3cf222fd5bebc973e7eb639d52bb29c425032"
   },
   {
     "source": "config.js",
     "destination": "config.js",
-    "sha256": "709c5139379473b56e0be2d9952211c6e3716de55f8770faabf07864f61c1982"
+    "sha256": "d2f7095d9c316741ad15b21b15aad1081972a68ea747bfb111d619b041a4bb3b"
   },
   {
     "source": "index.html",
     "destination": "index.html",
-    "sha256": "891d92e7e5749e6eb9c90dc3969a7b1311b6dad8d7d1fcb204278926bd77c94e"
+    "sha256": "7629fdd159e5e047b2c3decc68b7193a96b2ab26b1aa7b3be9d1ab123682ca7f"
   },
   {
     "source": "style.css",
     "destination": "style.css",
-    "sha256": "69eecbfd33c131452d428bbe91f0d59bbb6c30be38c6b6897a103028d92f7a53"
+    "sha256": "c5f8c838b54a3e0c30be7c63ac1b1536553b59c35b6172cf2ec65c8fc5086044"
   },
   {
     "source": "HLS-LICENSE.txt",

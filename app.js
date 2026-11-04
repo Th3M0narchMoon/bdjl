@@ -182,11 +182,10 @@ $('back-cover').addEventListener('click', () => {
   $('start').focus();
 });
 if (config.venue) $('venue-copy').textContent = config.venue;
-if (config.schedule) $('schedule-copy').textContent = config.schedule;
 for (const [key, id] of [['mapUrl', 'map-link'], ['rsvpUrl', 'rsvp-link']]) {
   if (config[key] && /^https?:\/\//i.test(config[key])) {
     $(id).href = config[key]; $(id).hidden = false;
-    if (key === 'rsvpUrl') $('rsvp-copy').textContent = '¡Nos hará mucha ilusión teneros allí! Confirmad por WhatsApp e indicad vuestros nombres y cuántas personas vendréis.';
+    if (key === 'rsvpUrl') $('rsvp-copy').textContent = '¡Nos hará mucha ilusión teneros allí! Confirmad por WhatsApp e indicad vuestros nombres.';
   }
 }
 if (seen) invitation();
