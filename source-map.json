@@ -2,7 +2,7 @@
   {
     "source": "app.js",
     "destination": "app.js",
-    "sha256": "eb42c1b6d39315236899e63744a390c821662b4084ba7c984a371b1872e48511"
+    "sha256": "e3c1e22f44dcdeb3aeff8c368f0b82b5f9962b3601ef135cce738ab9da246349"
   },
   {
     "source": "fiesta-preview.jpg",
@@ -27,7 +27,7 @@
   {
     "source": "index.html",
     "destination": "index.html",
-    "sha256": "5d808f9f21c5dbfc655129ccd2a2b424fabb73206b94709b108734230dceaa20"
+    "sha256": "66e0909f60b6b6abe4f4fff227dafb0c1068557e144afdcd18fa3594bc1e1252"
   },
   {
     "source": "style.css",

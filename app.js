@@ -70,7 +70,7 @@ function setPlayLoading(loading) {
   $('play-now').disabled = loading;
   $('play-now').setAttribute('aria-busy', String(loading));
   $('play-now').querySelector('.play-now-label').textContent = loading
-    ? 'Preparando la película…' : videoPreparationFailed ? 'Reintentar' : 'Ver la película';
+    ? 'Preparando el corto…' : videoPreparationFailed ? 'Reintentar' : 'Ver corto';
 }
 function fullscreenHint() {
   $('video-status').textContent = 'Si no se amplía, usa el control de pantalla completa del vídeo o abre el enlace en Safari o Chrome.';
@@ -108,7 +108,7 @@ function videoFailure() {
   videoPreparationFailed = true;
   loadedVideoUrl = undefined;
   setPlayLoading(false);
-  $('orientation-note').textContent = 'No se ha podido preparar la película. Comprueba la conexión y pulsa Reintentar.';
+  $('orientation-note').textContent = 'No se ha podido preparar el corto. Comprueba la conexión y pulsa Reintentar.';
   $('video-error').textContent = videoMode === 'high'
     ? 'No se ha podido reproducir en 1440p. Puedes reintentar con el botón de reproducción, abrir el original o elegir 1080p.'
     : 'No se ha podido cargar el vídeo. Comprueba la conexión e inténtalo de nuevo.';
