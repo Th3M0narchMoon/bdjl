@@ -6,5 +6,5 @@ window.WEDDING = {
   videoReady: true,
   venue: 'Masia La Costa Miralles · 08787 Santa Maria de Miralles, Barcelona',
   mapUrl: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a413ec38fd0dd7:0x914fa5e9f758d426?sa=X&ved=1t:8290&ictx=111',
-  rsvpUrl: 'https://wa.me/34699735775?text=' + encodeURIComponent('¡Hola, Laia y Jonathan! ¡Nos apuntamos a vuestra boda del 19 de junio de 2027! 💛\n\nSomos: [nombres]\n\n¡Qué ganas de celebrarlo con vosotros!')
+  rsvpUrl: 'https://wa.me/34699735775?text=' + encodeURIComponent('¡Hola, Laia y Jonathan! ¡Nos apuntamos a vuestra boda del 19 de junio de 2027! 💛\n\n¡Qué ganas de celebrarlo con vosotros!')
 };
